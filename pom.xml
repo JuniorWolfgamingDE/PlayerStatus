@@ -17,6 +17,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus-site</id>
+            <url>https://github.com/JuniorWolfgamingDE/PlayerStatus/</url>
+        </repository>
+    </distributionManagement>
+         
     <build>
 
         <plugins>
